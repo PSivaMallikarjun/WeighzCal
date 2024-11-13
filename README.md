@@ -25,7 +25,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/material-weight-calculator.git
+git clone https://github.com/PSivaMallikarjun/WeighzCal
 Open in Visual Studio:
 
 Open the project folder in Visual Studio 2022.
@@ -33,7 +33,7 @@ Restore the dependencies using the built-in tools in Visual Studio.
 Run the Application:
 
 Press Ctrl + F5 to run the application without debugging.
-The app should open in your default web browser at https://localhost:7048 (or the port defined in the launchSettings.json).
+The app should open in your default web browser at  (or the port defined in the launchSettings.json).
 Browse the Application:
 
 Navigate through the form to enter the material density and dimensions and calculate the weight.
