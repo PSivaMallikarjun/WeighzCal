@@ -1,0 +1,135 @@
+/* Base Styling for the page */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333333; /* Dark grey text */
+    background-color: #F1FAEE; /* Off-White background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading and Subheading Styling */
+h1, h2, h3 {
+    color: #1D3557; /* Dark Blue */
+    font-weight: 600;
+}
+
+p.description {
+    font-size: 1.2em;
+    color: #457B9D; /* Light Blue */
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1em;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+input[type="number"], select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+    input[type="number"]:focus, select:focus {
+        border-color: #457B9D; /* Light Blue on focus */
+    }
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button.btn {
+        background-color: #1D3557; /* Rich Blue */
+        color: white;
+    }
+
+        button.btn:hover {
+            background-color: #457B9D; /* Light Blue on hover */
+        }
+
+    button.btn-secondary {
+        background-color: #D8D8D8; /* Light Grey */
+        color: #333333;
+    }
+
+        button.btn-secondary:hover {
+            background-color: #457B9D; /* Light Blue on hover */
+        }
+
+/* Result Section Styling */
+.result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333333;
+}
+
+    .result h3 {
+        margin: 0;
+    }
+
+#densityTable {
+    margin-top: 30px;
+    font-size: 1em;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    #densityTable th, #densityTable td {
+        padding: 10px;
+        border: 1px solid #D8D8D8;
+        text-align: left;
+    }
+
+    #densityTable th {
+        background-color: #457B9D; /* Light Blue Header */
+        color: white;
+    }
+
+/* External Link Button */
+.external-density-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .external-density-link button {
+        background-color: #E9C46A; /* Gold */
+        color: #333333;
+        padding: 10px 20px;
+        font-size: 1em;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .external-density-link button:hover {
+            background-color: #457B9D; /* Light Blue on hover */
+        }
+
+    .external-density-link p {
+        font-size: 1.1em;
+        color: #333333;
+        margin-bottom: 10px;
+    }
