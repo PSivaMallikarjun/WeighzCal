@@ -25,7 +25,8 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/PSivaMallikarjun/WeighzCal
+git clone https://github.com/PSivaMallikarjun/WeighzCal.git
+
 Open in Visual Studio:
 
 Open the project folder in Visual Studio 2022.
